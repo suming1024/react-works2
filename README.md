@@ -6,3 +6,8 @@
 - (파일명).ts 파일 생성
 - tsc (파일명).ts (typescript compiler) -> (파일명).js
 - node (파일명).js 
+
+### TypeScript 기반의 React 프로젝트
+- npm create vite@latest my-app
+1. framework: React
+2. language: TypeScript
