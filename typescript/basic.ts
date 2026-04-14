@@ -19,3 +19,12 @@ console.log(`장바구니: ${cart.join(', ')}`);
 //<T> : 제네릭(generic) 표기
 let carts: Array<string> = ['사과','바나나','우유']
 console.log(`장바구니: ${carts.join(', ')}`);
+
+//any : 모든 타입 허용 (사용 자제 부탁)
+let value: any = 10;
+
+value = "문자열도 가능"
+value = true
+value = [1,2,3] 
+
+console.log(value);

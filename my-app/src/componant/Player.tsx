@@ -13,13 +13,22 @@
 //   )
 // }
 
-type PlayerProps = {
+// type PlayerProps = {
+//   player: {
+//     id: number;
+//     name: string;
+//     position: string;   
+//   }
+//   clickHandler: () => void    
+// }
+
+interface   PlayerProps {
   player: {
     id: number;
     name: string;
-    position: string;   
+    position: string;
   }
-  clickHandler: () => void    
+  clickHandler: () => void
 }
 
 export default function Player({player, clickHandler}: PlayerProps) {

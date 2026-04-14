@@ -1,6 +1,9 @@
 import './App.css'
 import Greet from './componant/Greet'
 import Player from './componant/Player'
+import Counter from './componant/Counter'
+import DrinkList from './componant/DrinkList'
+import InputValueState from './componant/InputValueState'
 
 function App() {
 
@@ -19,7 +22,10 @@ function App() {
       <section id="center">
         <h2><strong>TypeScript 기반 React</strong></h2>
         {/* <Greet name="정반달" /> */}
-        <Player player={player} clickHandler={clickHandler} />
+        {/* <Player player={player} clickHandler={clickHandler} /> */}
+        {/* <Counter />  */}
+        {/* <DrinkList /> */}
+        <InputValueState />
       </section>
     </>
   )
