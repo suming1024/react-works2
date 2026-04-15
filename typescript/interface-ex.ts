@@ -45,3 +45,5 @@ user2.name = "정반달";
 // console.log(`이름: ${user1.name});
 console.log(`이름: ${user1.name}, 나이: ${user1.age}`);
 console.log(`이름: ${user2.name}, 나이: ${user2.age}`);
+
+
